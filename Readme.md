@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Святослав Грядюга](https://up.htmlacademy.ru/htmlcss/24/user/958143).
-* Наставник: [Артём Рудов](https://up.htmlacademy.ru/htmlcss/24/user/345377).
+* Студент: [Святослав Грядюга](https://htmlacademy.ru/profile/id958143).
+* Наставник: [Артём Рудов](https://htmlacademy.ru/profile/artrudov).
 
 ---
 
