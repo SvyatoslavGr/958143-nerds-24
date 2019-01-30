@@ -7,14 +7,14 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/logo.svg" alt="Логотип студии Нёрдс">
+        <a class="main-navigation-link">
+          <img class="main-header-logo" src="img/logo.svg" alt="Логотип студии Нёрдс">
         </a>
         <ul class="site-navigation">
-          <li><a href="studio.html">Студия</a></li>
-          <li><a href="clients.html">Клиенты</a></li>
-          <li><a href="shop.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="studio.html">Студия</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="clients.html">Клиенты</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="shop.html">Магазин</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="contacts.html">Контакты</a></li>
         </ul>
         <a class="cart" href="cart.html">Корзина</a>
       </nav>
@@ -32,71 +32,102 @@
         <h2 class="visually-hidden">Услуги</h2>
         <ul class="services-list">
           <li class="services-item services-item-sites">
-            <h3>Веб-сайты</h3>
-            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <h3 class="service-item-title">Веб-сайты</h3>
+            <p class="service-item-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
             <a class="button services-button services-button-sites" href="order-site.html">Заказать</a>
           </li>
           <li class="services-item services-item-apps">
-            <h3>Приложения</h3>
-            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <h3 class="service-item-title">Приложения</h3>
+            <p class="service-item-text">Покорите топ-10 приложений в AppStore и Google Play</p>
             <a class="button services-button services-button-apps" href="order-app.html">Заказать</a>
           </li>
           <li class="services-item services-item-presentations">
-            <h3>Презентации</h3>
-            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <h3 class="service-item-title">Презентации</h3>
+            <p class="service-item-text">Вы даже не подозреваете, насколько вы изумительны!</p>
             <a class="button services-button services-button-presentations" href="order-presentation.html">Заказать</a>
           </li>
         </ul>
       </section>
 
-      <article class="about-us">
+      <article class="studio">
         <h2 class="visually-hidden">Информация о нас</h2>
-        <section class="info">
-          <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
-          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+        <section class="studio-info">
+          <p class="studio-info-lead">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p class="studio-info-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
             превыше креатива. Работаем не покладая рук, как роботы.</p>
-          <h3>Выполняем заказы на разработку:</h3>
-          <ul>
-            <li>Веб-сайтов любой сложности</li>
-            <li>Мобильных приложений для iOS и Android</li>
-            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          <p class="studio-info-services">Выполняем заказы на разработку:</p>
+          <ul class="studio-info-services-list">
+            <li class="studio-info-services-item">Веб-сайтов любой сложности</li>
+            <li class="studio-info-services-item">Мобильных приложений для iOS и Android</li>
+            <li class="studio-info-services-item">Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
         </section>
-        <section class="promo">
-          <img src="img/promo-logo.svg" alt="Логотип студии Нёрдс">
-          <table>
-            <caption>с 2004 года Любим точность во всем:</caption>
-            <!-- Здесь будет таблица -->
+
+        <aside class="promo">
+          <img class="promo-logo" src="img/promo-logo.svg" alt="Логотип студии Нёрдс">
+          <table class="promo-table">
+            <caption class="promo-table-title">с 2004 года Любим точность во всем:</caption>
+            <tr class="promo-table-column">
+              <td class="promo-table-line-one">Уровень самоотдачи</td>
+              <td class="promo-table-line-two">146%</td>
+            </tr>
+            <tr class="promo-table-column">
+              <td class="promo-table-line-one">Соблюдение сроков</td>
+              <td class="promo-table-line-two">100%</td>
+            </tr>
+            <tr class="promo-table-column">
+              <td class="promo-table-line-one">Минимальная предоплата</td>
+              <td class="promo-table-line-two">50%</td>
+            </tr>
           </table>
-        </section>
-        <section class="designed-sites">
-          <!-- Здесь будет блок с логотипами -->
-        </section>
+        </aside>
       </article>
+
+      <section class="partners">
+        <h2 class="visually-hidden">Наши партнеры</h2>
+        <ul class="partners-list">
+          <li class="partners-item">
+            <a class="partners-link" href="https://htmlacademy.ru">
+              <img class="partners-logo" src="img/htmlacademy-logo.svg" alt="htmlacademy">
+            </a>
+          </li>
+          <li class="partners-item">
+            <a class="partners-link" href="#">
+              <img class="partners-logo" src="img/barbeshop-logo.svg" alt="Барбершоп Borodinski">
+            </a>
+          </li>
+          <li class="partners-item">
+            <a class="partners-link" href="#">
+              <img class="partners-logo" src="img/pink-app-logo.svg" alt="Приложение PINK">
+            </a>
+          </li>
+          <li class="partners-item">
+            <a class="partners-link" href="#">
+              <img class="partners-logo" src="img/mishka-logo.svg" alt="Магазин Mishka">
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
+    <footer class="main-footer">
       <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <!-- Здесь будет блок с картой и контактами -->
+        <img class="map" src="img/map.png">
       </section>
 
       <section class="social">
-        <div class="social-buttons">
-          <ul>
-            <li><a class="social-button" href="https://vk.com/nerds">Вконтакте</a></li>
-            <li><a class="social-button" href="https://facebook.com/nerds">Фейсбук</a></li>
-            <li><a class="social-button" href="https://instagram.com/nerds">Инстаграм</a></li>
-          </ul>
-        </div>
-        <div class="social-promo">
-          <b>Давайте дружить, это выгодно!</b><br>
-          Скидка 10% для друзей из социальных сетей.
-        </div>
+        <ul class="social-buttons">
+          <li class="social-buttons-item"><a class="social-buttons-link social-buttons-vk" href="https://vk.com/nerds">Вконтакте</a></li>
+          <li class="social-buttons-item"><a class="social-buttons-link social-buttons-fb" href="https://facebook.com/nerds">Фейсбук</a></li>
+          <li class="social-buttons-item"><a class="social-buttons-link social-buttons-instagram" href="https://instagram.com/nerds">Инстаграм</a></li>
+        </ul>
+        <p class="social-promo"><span class="social-promo-slogan">Давайте дружить, это выгодно!</span>
+          Скидка 10% для друзей из социальных сетей.</p>
       </section>
     </footer>
 
     <section class="modal">
-      <p>Напишите нам</p>
+      <p class="modal-text">Напишите нам</p>
       <!-- Здесь будет форма -->
       <span class="modal-close">x</span>
     </section>
