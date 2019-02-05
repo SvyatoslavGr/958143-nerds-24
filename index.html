@@ -29,18 +29,21 @@
           <h3 class="feature-title">Долго, дорого, скрупулезно.</h3>
           <p class="feature-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
           <a href="studio.html" class="button feature-button">Узнать больше</a>
+          <button class="slider-button" type="button">Кнопка переключения слайдов</button>
         </section>
 
         <section class="feature feature-two">
           <h3 class="feature-title">Любим математику как никто другой</h3>
           <p class="feature-text">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
           <a href="studio.html" class="button feature-button">Узнать больше</a>
+          <button class="slider-button" type="button">Кнопка переключения слайдов</button>
         </section>
 
         <section class="feature feature-three">
           <h3 class="feature-title">Только ночь, только хардкор</h3>
           <p class="feature-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
           <a href="studio.html" class="button feature-button">Узнать больше</a>
+          <button class="slider-button" type="button">Кнопка переключения слайдов</button>
         </section>
       </section>
 
@@ -128,7 +131,7 @@
     <footer class="main-footer">
       <section class="contact-info">
         <h2 class="visually-hidden">Контактная информация</h2>
-        <img class="map" src="img/map.png" width="1725" height="808" alt="Карта">
+        <img class="map" src="img/map.jpg" width="1725" height="808" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
         <section class="contacts">
           <h3 class="contacts-title">Nёrds design studio</h3>
           <p class="contacts-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -138,6 +141,7 @@
       </section>
 
       <section class="social">
+        <h2 class="visually-hidden">Контакты в социальных сетях</h2>
         <ul class="social-buttons">
           <li class="social-buttons-item"><a class="social-buttons-link social-buttons-vk" href="https://vk.com/nerds">Вконтакте</a></li>
           <li class="social-buttons-item"><a class="social-buttons-link social-buttons-fb" href="https://facebook.com/nerds">Фейсбук</a></li>
@@ -149,9 +153,24 @@
     </footer>
 
     <section class="modal">
+      <h2 class="visually-hidden">Форма обратной связи</h2>
       <p class="modal-text">Напишите нам</p>
-      <!-- Здесь будет форма -->
-      <span class="modal-close">x</span>
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="feedback-item">
+          <label class="feedback-label" for="name-field">Ваше имя:</label>
+          <input class="feedback-input" type="text" name="name" id="name-field" placeholder="Имя Фамилия">
+        </p>
+        <p class="feedback-item">
+          <label class="feedback-label" for="email-field">Ваш e-mail:</label>
+          <input class="feedback-input" type="email" name="email" id="email-field" placeholder="email@example.com">
+        </p>
+        <p class="feedback-item">
+          <label class="feedback-label" for="feedback-text-field">Текст письма:</label>
+          <textarea class="feedback-input" name="feedback-text" id="feedback-text-field" rows="4" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="button feedback-button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
   </body>
 </html>

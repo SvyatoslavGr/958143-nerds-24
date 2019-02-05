@@ -30,12 +30,8 @@
             <li class="sorting-item"><a class="sorting-link" href="#">По цене</a></li>
             <li class="sorting-item"><a class="sorting-link" href="#">По типу</a></li>
             <li class="sorting-item"><a class="sorting-link" href="#">По названию</a></li>
-            <li class="sorting-item">
-              <a class="sorting-link" href="#"><img class="sorting-img" src="img/arrow-down.svg" width="11" height="10" alt="По убыванию"></a>
-            </li>
-            <li class="sorting-item">
-              <a class="sorting-link" href="#"><img class="sorting-img" src="img/arrow-up.svg" width="11" height="10" alt="По возрастанию"></a>
-            </li>
+            <li class="sorting-item"><a class="sorting-link" href="#">По убыванию</a></li>
+            <li class="sorting-item"><a class="sorting-link" href="#">По возрастанию</a></li>
           </ul>
         </header>
 
@@ -104,23 +100,71 @@
 
         <footer class="catalog-footer">
           <ul class="pagination-list">
-            <li class="pagination-item"><a class="pagination-link">1</a></li>
-            <li class="pagination-item"><a class="pagination-link" href="#">2</a></li>
-            <li class="pagination-item"><a class="pagination-link" href="#">3</a></li>
-            <li class="pagination-item"><a class="pagination-link" href="#">Следующая</a></li>
+            <li class="pagination-item"><a class="pagination-link" aria-label="Первая страница каталога">1</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#" aria-label="Вторая страница каталога">2</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#" aria-label="Третья страница каталога">3</a></li>
+            <li class="pagination-item"><a class="pagination-link" href="#" aria-label="Следующая страница каталога">Следующая</a></li>
           </ul>
         </footer>
       </section>
 
       <aside class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+        <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+          <fielset class="filter-fieldset">
+            <legend class="filter-legend">Стоимость:</legend>
+            <!-- Здесь будет поле формы -->
+          </fielset>
+          <fielset class="filter-fieldset">
+            <legend class="filter-legend">Сетка:</legend>
+            <ul class="filter-option-list">
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="layout-type" value="adaptive" id="adaptive-layout" checked>
+                <label class="filter-label" for="adaptive-layout">Адаптивная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="layout-type" value="fixed" id="fixed-layout">
+                <label class="filter-label" for="fixed-layout">Фиксированная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="layout-type" value="flexible" id="flexible-layout">
+                <label class="filter-label" for="flexible-layout">Резиновая</label>
+              </li>
+            </ul>
+          </fielset>
+          <fielset class="filter-fieldset">
+            <legend class="filter-legend">Особенности:</legend>
+            <ul class="filter-option-list">
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+                <label class="filter-label" for="filter-slider">Слайдер</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="features" id="filter-features">
+                <label class="filter-label" for="filter-features">Блок преимуществ</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+                <label class="filter-label" for="filter-news">Новости</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                <label class="filter-label" for="filter-gallery">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="filter-cart">
+                <label class="filter-label" for="filter-cart">Корзина</label>
+              </li>
+            </ul>
+          </fielset>
+          <button class="button filter-button" type="submit">Показать</button>
+        </form>
       </aside>
     </main>
     <footer class="main-footer">
       <section class="contact-info">
         <h2 class="visually-hidden">Контактная информация</h2>
-        <img class="map" src="img/map.png" width="1725" height="808" alt="Карта">
+        <img class="map" src="img/map.jpg" width="1725" height="808" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
         <section class="contacts">
           <h3 class="contacts-title">Nёrds design studio</h3>
           <p class="contacts-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -130,6 +174,7 @@
       </section>
 
       <section class="social">
+        <h2 class="visually-hidden">Контакты в социальных сетях</h2>
         <ul class="social-buttons">
           <li class="social-buttons-item"><a class="social-buttons-link social-buttons-vk" href="https://vk.com/nerds">Вконтакте</a></li>
           <li class="social-buttons-item"><a class="social-buttons-link social-buttons-fb" href="https://facebook.com/nerds">Фейсбук</a></li>
@@ -141,9 +186,24 @@
     </footer>
 
     <section class="modal">
+      <h2 class="visually-hidden">Форма обратной связи</h2>
       <p class="modal-text">Напишите нам</p>
-      <!-- Здесь будет форма -->
-      <span class="modal-close">x</span>
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="feedback-item">
+          <label class="feedback-label" for="name-field">Ваше имя:</label>
+          <input class="feedback-input" type="text" name="name" id="name-field" placeholder="Имя Фамилия">
+        </p>
+        <p class="feedback-item">
+          <label class="feedback-label" for="email-field">Ваш e-mail:</label>
+          <input class="feedback-input" type="email" name="email" id="email-field" placeholder="email@example.com">
+        </p>
+        <p class="feedback-item">
+          <label class="feedback-label" for="feedback-text-field">Текст письма:</label>
+          <textarea class="feedback-input" name="feedback-text" id="feedback-text-field" rows="4" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="button feedback-button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
   </body>
 </html>
