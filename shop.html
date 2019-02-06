@@ -113,7 +113,15 @@
         <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
           <fielset class="filter-fieldset">
             <legend class="filter-legend">Стоимость:</legend>
-            <!-- Здесь будет поле формы -->
+            <span class="price-range"></span>
+            <p class="filter-item">
+              <label class="filter-label" for="filter-min-price">От</label>
+              <input class="filter-input" type="number" min="0" max="15000" name="min-price" id="filter-min-price">
+            </p>
+            <p class="filter-item">
+              <label class="filter-label" for="filter-max-price">До</label>
+              <input class="filter-input" type="number" min="0" max="15000" name="max-price" id="filter-max-price">
+            </p>
           </fielset>
           <fielset class="filter-fieldset">
             <legend class="filter-legend">Сетка:</legend>
