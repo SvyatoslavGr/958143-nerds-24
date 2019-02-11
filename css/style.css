@@ -1,0 +1,428 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-link,
+.cart {
+  color: #000000;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+.site-navigation-link:hover,
+.cart:hover {
+  color: #fb565a;
+}
+
+.site-navigation-link:focus,
+.cart:focus {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.main-navigation-link:hover {
+  opacity: 0.8;
+}
+
+.main-navigation-link:focus {
+  opacity: 0.3;
+}
+
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.feature {
+  background-color: #eeeeee;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.feature-text {
+  color: #283136;
+}
+
+.button {
+  color: #ffffff;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+}
+
+.feature-button {
+  background-color: #fb565a;
+}
+
+.feature-button:hover {
+  background-color: #e74246;
+}
+
+.feature-button:focus {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(215, 55, 59, 1);
+}
+
+.services-list {
+  list-style: none;
+}
+
+.service-item-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.service-item-text {
+  color: #283136;
+  line-height: 24px;
+}
+
+.services-button-sites {
+  background-color: #fb565a;
+}
+
+.services-button-apps {
+  background-color: #00ca74;
+}
+
+.services-button-presentations {
+  background-color: #efc84a;
+}
+
+.services-button-sites:hover {
+  background-color: #e74246;
+}
+
+.services-button-apps:hover {
+  background-color: #00bc6c;
+}
+
+.services-button-presentations:hover {
+  background-color: #eab534;
+}
+
+.services-button-sites:focus {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(215, 55, 59, 1);
+}
+
+.services-button-apps:focus {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 170, 98, 1);
+}
+
+.services-button-presentations:focus {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(229, 167, 34, 1);
+}
+
+.studio-info-lead {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.studio-info-text,
+.studio-info-services-item {
+  color: #283136;
+}
+
+.studio-info-services,
+.promo-table-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.studio-info-services-list {
+  list-style: none;
+}
+
+.promo-table-line-one {
+  line-height: 18px;
+  color: #283136;
+}
+
+.promo-table-line-two {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.text-sup {
+  vertical-align: super;
+  font-size: 25px;
+}
+
+.partners-list {
+  list-style: none;
+}
+
+.partners-link {
+  opacity: 0.2;
+}
+
+.partners-link:hover {
+  opacity: 1;
+}
+
+.partners-link:focus {
+  opacity: 0.1;
+}
+
+/* Каталог */
+
+.sorting-text {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+.sorting-link {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sorting-link:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sorting-link:focus {
+  color: rgba(0, 0, 0, 1);
+}
+
+.catalog-list-item {
+  list-style: none;
+}
+
+.catalog-item-info {
+  background-color: #eeeeee;
+}
+
+.catalog-item-link {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.catalog-item-text {
+  line-height: 18px;
+  color: #666666;
+}
+
+.price-button {
+  background-color: #fb565a;
+}
+
+.price-button:hover {
+  background-color: #e74246;
+}
+
+.price-button:focus {
+  background-color: #d7373b;
+}
+
+.filter-fieldset {
+  border: none;
+}
+
+.filter-legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.filter-option-list {
+  list-style: none;
+}
+
+.filter-item {
+  color: #283136;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+.filter-item input {
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 2px;
+}
+
+.filter-option label {
+  color: #283136;
+  line-height: 20px;
+}
+
+.filter-option .filter-input:disabled + label {
+  opacity: 0.3;
+}
+
+.filter-button {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.filter-button:hover {
+  background-color: #dfdfdf;
+}
+
+.filter-button:focus {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-link {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.pagination-link.active {
+  background-color: #ffffff;
+  border: 3px solid #dbdbdb;
+}
+
+.pagination-link:hover {
+  background-color: #dfdfdf;
+}
+
+.pagination-link:focus {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+/* Конец каталога */
+
+.contacts-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-text {
+  line-height: 18px;
+  color: #666666;
+}
+
+.contacts-button {
+  background-color: #fb565a;
+}
+
+.contacts-button:hover {
+  background-color: #e74246;
+}
+
+.contacts-button:focus {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(215, 55, 59, 1);
+}
+
+.social-buttons {
+  list-style: none;
+}
+
+.social-promo {
+  line-height: 22px;
+  color: #444444;
+}
+
+.social-promo-slogan {
+  color: #000000;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.modal-text {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.feedback-item {
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  font: inherit;
+  line-height: 18px;
+  font-weight: 400;
+  color: #444444;
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form input[type="email"]:hover,
+.feedback-form textarea:hover {
+  border-color: #b4b9bb;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus {
+  border-color: #000000;
+  outline: 2px black;
+}
+
+.feedback-form input[type="email"]:invalid {
+  color: #e74246;
+  border-color: #e74246;
+}
+
+.feedback-button {
+  background-color: #fb565a;
+}
+
+.feedback-button:hover {
+  background-color: #e74246;
+}
+
+.feedback-button:focus {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(215, 55, 59, 1);
+}
