@@ -1,10 +1,12 @@
 body {
   margin: 0;
-  font-family: "Roboto", Arial, sans-serif;
+
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  font-family: "Roboto", Arial, sans-serif;
   color: #000000;
+
   background-color: #ffffff;
 }
 
@@ -22,10 +24,10 @@ a {
 
 .site-navigation-link,
 .cart {
-  color: #000000;
   font-weight: 500;
-  text-transform: uppercase;
   line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .site-navigation-link:hover,
@@ -36,6 +38,7 @@ a {
 .site-navigation-link:focus,
 .cart:focus {
   color: #000000;
+
   opacity: 0.3;
 }
 
@@ -48,11 +51,12 @@ a {
 }
 
 .page-title {
+  font-weight: 500;
   font-size: 55px;
   line-height: 55px;
-  font-weight: 500;
-  background-color: #eeeeee;
   text-align: center;
+
+  background-color: #eeeeee;
 }
 
 .feature {
@@ -70,10 +74,11 @@ a {
 }
 
 .button {
-  color: #ffffff;
-  line-height: 18px;
   font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
   text-transform: uppercase;
+
   border: none;
 }
 
@@ -87,6 +92,7 @@ a {
 
 .feature-button:focus {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: rgba(215, 55, 59, 1);
 }
 
@@ -95,14 +101,14 @@ a {
 }
 
 .service-item-title {
+  font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  font-weight: 700;
 }
 
 .service-item-text {
-  color: #283136;
   line-height: 24px;
+  color: #283136;
 }
 
 .services-button-sites {
@@ -131,23 +137,26 @@ a {
 
 .services-button-sites:focus {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: rgba(215, 55, 59, 1);
 }
 
 .services-button-apps:focus {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: rgba(0, 170, 98, 1);
 }
 
 .services-button-presentations:focus {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: rgba(229, 167, 34, 1);
 }
 
 .studio-info-lead {
+  font-weight: 500;
   font-size: 45px;
   line-height: 45px;
-  font-weight: 500;
 }
 
 .studio-info-text,
@@ -171,14 +180,14 @@ a {
 }
 
 .promo-table-line-two {
+  font-weight: 700;
   font-size: 45px;
   line-height: 45px;
-  font-weight: 700;
 }
 
 .text-sup {
-  vertical-align: super;
   font-size: 25px;
+  vertical-align: super;
 }
 
 .partners-list {
@@ -200,9 +209,9 @@ a {
 /* Каталог */
 
 .sorting-text {
+  font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -211,9 +220,9 @@ a {
 }
 
 .sorting-link {
-  color: rgba(0, 0, 0, 0.3);
   font-size: 14px;
   line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
 }
 
@@ -234,9 +243,9 @@ a {
 }
 
 .catalog-item-link {
+  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 }
@@ -263,9 +272,9 @@ a {
 }
 
 .filter-legend {
+  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -274,20 +283,20 @@ a {
 }
 
 .filter-item {
+  line-height: 22px;
   color: #283136;
   text-transform: uppercase;
-  line-height: 22px;
 }
 
 .filter-item input {
-  border: none;
   background-color: #eeeeee;
+  border: none;
   border-radius: 2px;
 }
 
 .filter-option label {
-  color: #283136;
   line-height: 20px;
+  color: #283136;
 }
 
 .filter-option .filter-input:disabled + label {
@@ -296,6 +305,7 @@ a {
 
 .filter-button {
   color: #000000;
+
   background-color: #eeeeee;
 }
 
@@ -305,6 +315,7 @@ a {
 
 .filter-button:focus {
   color: rgba(0, 0, 0, 0.3);
+
   background-color: #d5d5d5;
 }
 
@@ -314,6 +325,7 @@ a {
 
 .pagination-link {
   color: #000000;
+
   background-color: #eeeeee;
 }
 
@@ -328,15 +340,16 @@ a {
 
 .pagination-link:focus {
   color: rgba(0, 0, 0, 0.3);
+
   background-color: #d5d5d5;
 }
 
 /* Конец каталога */
 
 .contacts-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -355,6 +368,7 @@ a {
 
 .contacts-button:focus {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: rgba(215, 55, 59, 1);
 }
 
@@ -368,30 +382,31 @@ a {
 }
 
 .social-promo-slogan {
-  color: #000000;
+  font-weight: 700;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 700;
+  color: #000000;
 }
 
 .modal-text {
+  font-weight: 500;
   font-size: 45px;
   line-height: 45px;
-  font-weight: 500;
 }
 
 .feedback-item {
-  line-height: 18px;
   font-weight: 700;
+  line-height: 18px;
 }
 
 .feedback-form input[type="text"],
 .feedback-form input[type="email"],
 .feedback-form textarea {
   font: inherit;
-  line-height: 18px;
   font-weight: 400;
+  line-height: 18px;
   color: #444444;
+
   border: 2px solid #d7dcde;
   border-radius: 2px;
 }
@@ -411,6 +426,7 @@ a {
 
 .feedback-form input[type="email"]:invalid {
   color: #e74246;
+
   border-color: #e74246;
 }
 
@@ -424,5 +440,6 @@ a {
 
 .feedback-button:focus {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: rgba(215, 55, 59, 1);
 }
