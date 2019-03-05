@@ -1067,9 +1067,9 @@ input[type="checkbox"].visually-hidden {
   opacity: 0.4;
 }
 
-.filter-input-radio:hover + .radio-label::before,
+.radio-label:hover::before,
+.filter-input-radio:checked + .radio-label:hover::after,
 .filter-input-radio:focus + .radio-label::before,
-.filter-input-radio:checked:hover + .radio-label::after,
 .filter-input-radio:checked:focus + .radio-label::after {
   opacity: 1;
 }
@@ -1100,8 +1100,8 @@ input[type="checkbox"].visually-hidden {
   opacity: 0.4;
 }
 
-.filter-input-checkbox:hover + .checkbox-label::before,
-.filter-input-checkbox:checked:hover + .checkbox-label::before,
+.checkbox-label:hover::before,
+.filter-input-checkbox:checked + .checkbox-label:hover::before,
 .filter-input-checkbox:focus + .checkbox-label::before,
 .filter-input-checkbox:checked:focus + .checkbox-label::before {
   opacity: 1;
