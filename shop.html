@@ -34,8 +34,8 @@
                 <div class="scale">
                   <div class="bar"></div>
                 </div>
-                <div class="toggle min-toggle"></div>
-                <div class="toggle max-toggle"></div>
+                <button class="toggle min-toggle" type="button"><span class="visually-hidden">Минимальная цена</span></button>
+                <button class="toggle max-toggle" type="button"><span class="visually-hidden">Максимальная цена</span></button>
               </div>
               <div class="price-controls">
                 <p class="filter-item">
@@ -110,63 +110,75 @@
 
         <ul class="catalog-list">
           <li class="catalog-list-item">
-            <article class="catalog-item">
+            <article class="catalog-item" tabindex="0">
               <div class="catalog-item-info">
                 <h3 class="catalog-item-title"><a class="catalog-item-link" href="sedona.html">Sedona</a></h3>
                 <p class="catalog-item-text">Информационный сайт для туристов</p>
                 <a class="button price-button" href="cart.html">9900 руб.</a>
               </div>
-              <img class="catalog-item-img" src="img/sedona.jpg" width="360" height="576" alt="Туристический сайт Sedona">
+              <div class="catalog-image">
+                <img class="catalog-item-img" src="img/sedona.jpg" width="360" height="576" alt="Туристический сайт Sedona">
+              </div>
             </article>
           </li>
           <li class="catalog-list-item">
-            <article class="catalog-item">
+            <article class="catalog-item" tabindex="0">
               <div class="catalog-item-info">
                 <h3 class="catalog-item-title"><a class="catalog-item-link" href="pink-app.html">Pink app</a></h3>
                 <p class="catalog-item-text">Продуктовый лендинг приложения для iOS и Android</p>
                 <a class="button price-button" href="cart.html">9900 руб.</a>
               </div>
-              <img class="catalog-item-img" src="img/pink-app.jpg" width="360" height="576" alt="Лендинг приложения Pink">
+              <div class="catalog-image">
+                <img class="catalog-item-img" src="img/pink-app.jpg" width="360" height="576" alt="Лендинг приложения Pink">
+              </div>
             </article>
           </li>
           <li class="catalog-list-item">
-            <article class="catalog-item">
+            <article class="catalog-item" tabindex="0">
               <div class="catalog-item-info">
                 <h3 class="catalog-item-title"><a class="catalog-item-link" href="barbershop.html">Barbershop</a></h3>
                 <p class="catalog-item-text">Сайт салона красоты. Для мужчин, да.</p>
                 <a class="button price-button" href="cart.html">9900 руб.</a>
               </div>
-              <img class="catalog-item-img" src="img/barbershop.jpg" width="360" height="576" alt="Сайт барбершопа Borodinski">
+              <div class="catalog-image">
+                <img class="catalog-item-img" src="img/barbershop.jpg" width="360" height="576" alt="Сайт барбершопа Borodinski">
+              </div>
             </article>
           </li>
           <li class="catalog-list-item">
-            <article class="catalog-item">
+            <article class="catalog-item" tabindex="0">
               <div class="catalog-item-info">
                 <h3 class="catalog-item-title"><a class="catalog-item-link" href="mishka.html">Mishka</a></h3>
                 <p class="catalog-item-text">Интернет-магазин вязаных игрушек</p>
                 <a class="button price-button" href="cart.html">9900 руб.</a>
               </div>
-              <img class="catalog-item-img" src="img/mishka.jpg" width="360" height="576" alt="Интернет-магазин Mishka">
+              <div class="catalog-image">
+                <img class="catalog-item-img" src="img/mishka.jpg" width="360" height="576" alt="Интернет-магазин Mishka">
+              </div>
             </article>
           </li>
           <li class="catalog-list-item">
-            <article class="catalog-item">
+            <article class="catalog-item" tabindex="0">
               <div class="catalog-item-info">
                 <h3 class="catalog-item-title"><a class="catalog-item-link" href="a-plus.html">A plus</a></h3>
                 <p class="catalog-item-text">Лендинг курсов повышения квалификации</p>
                 <a class="button price-button" href="cart.html">9900 руб.</a>
               </div>
-              <img class="catalog-item-img" src="img/a-plus.jpg" width="360" height="576" alt="Лендинг курсов A plus">
+              <div class="catalog-image">
+                <img class="catalog-item-img" src="img/a-plus.jpg" width="360" height="576" alt="Лендинг курсов A plus">
+              </div>
             </article>
           </li>
           <li class="catalog-list-item">
-            <article class="catalog-item">
+            <article class="catalog-item" tabindex="0">
               <div class="catalog-item-info">
                 <h3 class="catalog-item-title"><a class="catalog-item-link" href="kvast.html">Кваст</a></h3>
                 <p class="catalog-item-text">Промо-сайт производителя крафтового кваса</p>
                 <a class="button price-button" href="cart.html">9900 руб.</a>
               </div>
-              <img class="catalog-item-img" src="img/kvast.jpg" width="360" height="576" alt="Промо-сайт Кваст">
+              <div class="catalog-image">
+                <img class="catalog-item-img" src="img/kvast.jpg" width="360" height="576" alt="Промо-сайт Кваст">
+              </div>
             </article>
           </li>
         </ul>
@@ -224,8 +236,10 @@
             </a>
           </li>
         </ul>
-        <p class="social-promo"><span class="social-promo-slogan">Давайте дружить, это выгодно!</span>
-          Скидка 10% для друзей из социальных сетей.</p>
+        <div class="social-text">
+          <p class="social-promo-slogan">Давайте дружить, это выгодно!</p>
+          <p class="social-promo">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
       </section>
     </footer>
 
