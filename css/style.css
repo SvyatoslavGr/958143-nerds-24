@@ -1,4 +1,5 @@
 body {
+  min-width: 1200px;
   margin: 0;
 
   font-weight: 400;
@@ -180,6 +181,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-title {
+  width: 520px;
   margin: 0;
   margin-bottom: 27px;
 
@@ -189,6 +191,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-text {
+  width: 410px;
   margin-bottom: 38px;
 
   color: #283136;
@@ -789,10 +792,10 @@ input[type="checkbox"].visually-hidden {
   width: 360px;
   height: 40px;
 
-  background-color: #4d4d4d;
   background-image: url(../img/browser.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
+
   opacity: 0.12;
 }
 
@@ -845,6 +848,10 @@ input[type="checkbox"].visually-hidden {
   z-index: -1;
 
   display: block;
+  width: 360px;
+  height: 576px;
+
+  background-color: #bab4d9;
 }
 
 .catalog-image {
@@ -1203,7 +1210,7 @@ input[type="checkbox"].visually-hidden {
   margin: 0 auto 69px;
 }
 
-iframe {
+.google-map {
   position: absolute;
   top: 0;
 
